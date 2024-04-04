@@ -1,0 +1,12 @@
+name: boat
+
+dependencies:
+  - python=3.10.9
+  - numpy
+  - pandas
+  - ipython
+  - matplotlib
+  - pip:
+    - stable-baselines3[extra]
+    - gymnasium
+    - torch
